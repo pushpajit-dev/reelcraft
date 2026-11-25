@@ -12,11 +12,11 @@ Convert podcasts, interviews, gameplay recordings, YouTube videos, and stream Vo
 
 Download the latest signed Windows installer from [**Releases (Latest)**](https://github.com/pushpajit-dev/reelcraft/releases/latest):
 
-- **`Reel.Craft_0.2.4_x64-setup.exe`** — NSIS Windows Setup Wizard (recommended)
-- **`Reel.Craft_0.2.4_x64_en-US.msi`** — Windows MSI Installer
+- **`Reel.Craft_0.2.5_x64-setup.exe`** — NSIS Windows Setup Wizard (recommended)
+- **`Reel.Craft_0.2.5_x64_en-US.msi`** — Windows MSI Installer
 
 ### Installation Steps
-1. Download **`Reel.Craft_0.2.4_x64-setup.exe`** (or the `.msi` package) from the latest GitHub Release.
+1. Download **`Reel.Craft_0.2.5_x64-setup.exe`** (or the `.msi` package) from the latest GitHub Release.
 2. *(Optional, for signed publisher trust)* If Windows prompts about our self-signed publisher certificate, download `AivoryStudios.cer` and run `Install-Aivory-Certificate.bat` as Administrator from the release assets (or `msi/` / `nsis/`).
 3. Run the installer and launch **Reel Craft** from the Start Menu or Desktop shortcut.
 4. On first launch inside the app, Reel Craft auto-detects `FFmpeg`, `ffprobe`, `yt-dlp`, Python/Whisper, and Ollama (or lets you install/configure models directly from **Settings**).
@@ -61,7 +61,7 @@ Review rendered vertical 9:16 reels with custom captions, overlays, and one-clic
 - **Hybrid Transcription & Multi-Language Captions** — Offline OpenAI Whisper (`tiny` to `large-v3`) and Google Gemini Cloud transcription (with auto language detection across 85+ languages & vocal-envelope Bengali/Indic sync), active word highlight, custom fonts, strokes, and shadows.
 - **Clip Studio & Framing** — Left/Center/Right crop presets, webcam PiP & split layouts, channel subscribe/like badges, vignette, logos, background blur, and hardware encoding (`NVENC` / `QSV` / `AMF`).
 - **Bulk Export Hub** — Queue renders, inspect every rendered MP4 in-app, re-render selected clips, or bundle everything into a ZIP archive.
-- **Built-in Aivory Portal Updates, Invoices & Help Feedback** — Top-right header notifications (with unread audio bell chime & Windows taskbar red badge) and invoices when a project is open, plus simple Help & Feedback queries/screenshots synced directly with Aivory Portal & Admin Aivory.
+- **Built-in Aivory Portal Updates, Invoices & Help Feedback** — Top-right header notifications (with unread audio bell chime & Windows taskbar red badge) and invoices on the All Projects dashboard, plus simple Help & Feedback queries/screenshots synced directly with Aivory Portal & Admin Aivory.
 
 ---
 
